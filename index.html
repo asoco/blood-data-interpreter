@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Анализ крови</title>
+</head>
+
+<body>
+    <div class="top-screen">
+        <h1 class="top-screen__header">Расшифруйте анализ крови в 1 клик</h1>
+        <h3 class="top-screen__subheader">Моментальный анализ. Анонимно</h3>
+        <span class="top-screen__text">Сервис не собирает и не хранит никаких данных о Вас</span>
+        <a class="top-screen__cta" href="#form">Перейти к форме</a>
+    </div>
+    <div id="form" class="form">
+        <div class="form__group form__center">
+            <h1 class="form__header">Анализ крови</h1>
+            <!-- <a href="" class="form__link">Как это работает?</a> -->
+        </div>
+        <div class="form__group personal">
+            <span class="form__block_header">Персональная информация</span>
+            <div id="gender" class="personal__group">
+                <label for="male"><input type="radio" id="male" class="form__radio" name="gender" value="Male"
+                        checked>Муж</label>
+                <label for="female"><input type="radio" id="female" class="form__radio" name="gender"
+                        value="Female">Жен</label>
+
+            </div>
+            <div class="personal__group">
+                <input type="text" value="12" id="personal_age" class="form__input personal__age"
+                    placeholder="Возраст" />
+                <select id="age-step" value="52" class="form__input personal__age">
+                    <option value="1">Недель</option>
+                    <option value="4">Месяцев</option>
+                    <option value="52" selected>Лет</option>
+                </select>
+            </div>
+        </div>
+        <div id="measure-inputs" class="form__group measures">
+
+        </div>
+        <div class="form__results">
+            <div class="form__cta-wrap">
+                <button id="calculate" class="form__results-cta">Результаты</button>
+                <button class="form__results-cta" onclick="autofill()">Автозначения</button>
+            </div>
+        </div>
+    </div>
+    <div id="measure-results" class="result hidden">
+        <div class="result__item total-score">
+            <h1 class="result__header">Результат анализов</h1>
+            <span id="result-score" class="total-score__radial">81</span>
+            <span id="result-score-title" class="total-score__conclusion">Хорошо</span>
+        </div>
+        <h3 class="result__subheader">Информация о показателях</h3>
+        <div id="measure-results-details" class="result__item result-detail"></div>
+    </div>
+    <video class="video_bg" src="assets/RedBloodCell.mov" poster="assets/RedBloodCell_Moment.jpg" autoplay loop></video>
+    <script src="/js/main.js"></script>
+    <script>
+    	function autofill(){
+    		let values = [120, 4.81, 10.03, 38, 26.2, 0.0, 33.2, 79, 64.4, 6.46, 0.4, 10.1, 0.4, 2.48, 442, 20]
+    		let inputs = document.querySelectorAll('.measures__input');    		
+    		for (let i = 0; i < values.length; i++) {
+    			inputs[i].value = values[i];
+    		}
+    	}
+    </script>
+</body>
+
+</html>

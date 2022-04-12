@@ -1,0 +1,1160 @@
+{
+    "HGB":{
+        "Name":"Гемоглобин",
+        "Units":"г/л",
+        "Placeholder":"000",
+        "ReasonsHigh":[
+            "обезвоживание (снижение потребления жидкости, обильное потоотделение, нарушение работы почек, диабет, обильная рвота или диарея, применение мочегонных препаратов)",
+            "врожденные пороки сердца или легкого",
+            "легочная недостаточность или сердечная недостаточность",
+            "заболевания почек (стеноз почечной артерии, доброкачественные опухоли почки)",
+            "заболевания органов кроветворения (эритремия)"
+        ],
+        "ReasonsLow":[
+            "анемия",
+            "лейкозы",
+            "врожденные заболевания крови (серповидно-клеточная анемия, талассемия)",
+            "недостаток железа",
+            "недостаток витаминов",
+            "истощение организма",
+            "кровопотеря"
+        ],
+        "Measures":[
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"134|198",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":4,
+                "Male":null,
+                "Female":null,
+                "Base":"107|171",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":8,
+                "Male":null,
+                "Female":null,
+                "Base":"94|130",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":16,
+                "Male":null,
+                "Female":null,
+                "Base":"103|141",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":24,
+                "Male":null,
+                "Female":null,
+                "Base":"111|141",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":36,
+                "Male":null,
+                "Female":null,
+                "Base":"114|140",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"113|141",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":260,
+                "Male":null,
+                "Female":null,
+                "Base":"100|140",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":520,
+                "Male":null,
+                "Female":null,
+                "Base":"115|145",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":624,
+                "Male":null,
+                "Female":null,
+                "Base":"120|150",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":780,
+                "Male":"120|160",
+                "Female":"115|150",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":936,
+                "Male":"117|166",
+                "Female":"117|153",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":2340,
+                "Male":"132|173",
+                "Female":"117|155",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":3380,
+                "Male":"131|172",
+                "Female":"117|160",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":3381,
+                "Male":"126|174",
+                "Female":"120|161",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"ThisAndGreater"
+            }
+        ]
+    },
+    "RBC":{
+        "Name":"Эритроциты",
+        "Units":"10^12 клеток/л",
+        "Placeholder":"0.0",
+        "ReasonsHigh":[
+            "обезвоживание организма (рвота, диарея, обильное потоотделение, снижение потребления жидкости)",
+            "эритремия (заболевания кроветворной системы)",
+            "заболевания сердечно-сосудистой или легочной системы, которые приводят к дыхательной и сердечной недостаточности",
+            "стеноз почечной артерии"
+        ],
+        "ReasonsLow":[
+            "погрешности в питании (пища бедная витаминами и белком)",
+            "кровопотеря",
+            "лейкозы (заболевания системы кроветворения)",
+            "наследственные ферментопатии (дефекты ферментов, которые участвуют в кроветворении)",
+            "гемолиз (гибель клеток крови в результате воздействия токсических веществ и аутоиммунных поражений)"
+        ],
+        "Measures":[
+            {
+                "Age":1,
+                "Male":null,
+                "Female":null,
+                "Base":"3.9|6.3",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"3.6|6.2",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":4,
+                "Male":null,
+                "Female":null,
+                "Base":"3|5.4",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":8,
+                "Male":null,
+                "Female":null,
+                "Base":"2.7|4.9",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":24,
+                "Male":null,
+                "Female":null,
+                "Base":"3.1|4.5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":104,
+                "Male":null,
+                "Female":null,
+                "Base":"3.7|5.3",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":312,
+                "Male":null,
+                "Female":null,
+                "Base":"3.9|5.3",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":624,
+                "Male":null,
+                "Female":null,
+                "Base":"4|5.2",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":936,
+                "Male":"4.5|5.3",
+                "Female":"4.1|5",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":937,
+                "Male":"4|5",
+                "Female":"3.5|4.7",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"ThisAndGreater"
+            }
+        ]
+    },
+    "WBC":{
+        "Name":"Лейкоциты",
+        "Units":"10^9 клеток/л",
+        "Placeholder":"00.0",
+        "ReasonsHigh":[
+            "физиологическое повышение уровня лейкоцитов",
+            "после приема пищи",
+            "после активной физической нагрузки",
+            "во второй половине беременности",
+            "после прививки",
+            "в период менструации",
+            "на фоне воспалительной реакции",
+            "гнойно-воспалительные процессы (абсцесс, флегмона, бронхит, гайморит, аппендицит, и т.д.)",
+            "ожоги и травмы с обширным повреждением мягких тканей",
+            "после операции",
+            "в период обострения ревматизма",
+            "при онкологическом процессе",
+            "при лейкозах или при злокачественных опухолях различной локализации происходит стимуляция работы иммунной системы"
+        ],
+        "ReasonsLow":[
+            "вирусные и инфекционные заболевания (грипп, брюшной тиф, вирусный гепатит, сепсис, корь, малярия, краснуха, эпидемический паротит, спид)",
+            "ревматические заболевания (ревматоидный артрит, системная красная волчанка)",
+            "некоторые виды лейкозов",
+            "гиповитаминозы",
+            "применение противоопухолевых препаратов (цитостатики, стероидные препараты)",
+            "лучевая болезнь."
+        ],
+        "Measures":[
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"6|17.5",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":104,
+                "Male":null,
+                "Female":null,
+                "Base":"6|17",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":208,
+                "Male":null,
+                "Female":null,
+                "Base":"5.5|15.5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":312,
+                "Male":null,
+                "Female":null,
+                "Base":"5|14.5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":520,
+                "Male":null,
+                "Female":null,
+                "Base":"4.5|13.5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":832,
+                "Male":null,
+                "Female":null,
+                "Base":"4.5|13",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":833,
+                "Male":null,
+                "Female":null,
+                "Base":"4|9",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndGreater"
+            }
+        ]
+    },
+    "HCT":{
+        "Name":"Гематокрит",
+        "Units":"%",
+        "Placeholder":"00",
+        "ReasonsHigh":[
+            "эритремия",
+            "сердечная или дыхательная недостаточность",
+            "обезвоживание в результате обильной рвоты, диареи, обширных ожогов, при диабете"
+        ],
+        "ReasonsLow":null,
+        "Measures":[
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"41|65",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":4,
+                "Male":null,
+                "Female":null,
+                "Base":"33|55",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":8,
+                "Male":null,
+                "Female":null,
+                "Base":"28|42",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":16,
+                "Male":null,
+                "Female":null,
+                "Base":"32|44",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":24,
+                "Male":null,
+                "Female":null,
+                "Base":"31|41",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":36,
+                "Male":null,
+                "Female":null,
+                "Base":"32|40",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":48,
+                "Male":null,
+                "Female":null,
+                "Base":"33|41",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":156,
+                "Male":null,
+                "Female":null,
+                "Base":"32|40",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":312,
+                "Male":null,
+                "Female":null,
+                "Base":"32|42",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":468,
+                "Male":null,
+                "Female":null,
+                "Base":"33|41",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":624,
+                "Male":null,
+                "Female":null,
+                "Base":"34|43",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":780,
+                "Male":"35|45",
+                "Female":"34|44",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":936,
+                "Male":"37|48",
+                "Female":"34|44",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":2340,
+                "Male":"42|50",
+                "Female":"38|47",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":3380,
+                "Male":"39|50",
+                "Female":"35|47",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":3381,
+                "Male":"37|51",
+                "Female":"35|47",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"ThisAndGreater"
+            }
+        ]
+    },
+    "MCH":{
+        "Name":"Среднее содержание гемоглобина в эритроците",
+        "Units":"пг",
+        "Placeholder":"00",
+        "ReasonsHigh":null,
+        "ReasonsLow":null,
+        "Measures":[
+            {
+                "Age":null,
+                "Male":null,
+                "Female":null,
+                "Base":"24|33",
+                "GenderEqual":true,
+                "CheckAge":"SameToAll"
+            }
+        ]
+    },
+    "CLR":{
+        "Name":"Цветовой показатель",
+        "Units":"",
+        "Placeholder":"0.0",
+        "ReasonsHigh":null,
+        "ReasonsLow":null,
+        "Measures":[
+            {
+                "Age":null,
+                "Male":null,
+                "Female":null,
+                "Base":"0.9|1.1",
+                "GenderEqual":true,
+                "CheckAge":"SameToAll"
+            }
+        ]
+    },
+    "MCHC":{
+        "Name":"Средняя концентрация гемоглобина в эритроците",
+        "Units":"%",
+        "Placeholder":"00",
+        "ReasonsHigh":null,
+        "ReasonsLow":null,
+        "Measures":[
+            {
+                "Age":null,
+                "Male":null,
+                "Female":null,
+                "Base":"30|38",
+                "GenderEqual":true,
+                "CheckAge":"SameToAll"
+            }
+        ]
+    },
+    "MCV":{
+        "Name":"Средний объем эритроцита",
+        "Units":"мкм3 (фл)",
+        "Placeholder":"00",
+        "ReasonsHigh":null,
+        "ReasonsLow":null,
+        "Measures":[
+            {
+                "Age":null,
+                "Male":null,
+                "Female":null,
+                "Base":"80|95",
+                "GenderEqual":true,
+                "CheckAge":"SameToAll"
+            }
+        ]
+    },
+    "NE":{
+        "Name":"Сегментоядерные нейтрофилы",
+        "Units":"%",
+        "Placeholder":"00",
+        "ReasonsHigh":[
+            "инфекционные заболевания (ангина, синусит, кишечная инфекция, бронхит, пневмония)",
+            "инфекционные процессы – абсцесс, флегмона, гангрена, травматические повреждения мягких тканей, остеомиелит",
+            "воспалительные заболевания внутренних органов: панкреатит,  перитонит, тиреоидит, артрит)",
+            "инфаркт (инфаркт сердца, почки, селезенки)",
+            "хронические нарушения обмена веществ: сахарный диабет, уремия, эклампсия",
+            "раковые опухоли",
+            "применение иммуностимулирующих препаратов, прививки",
+            "снижение уровня нейтрофилов – это состояние называют нейтропенией"
+        ],
+        "ReasonsLow":[
+            "инфекционные заболевания: брюшной тиф, бруцеллез, грипп, корь, ветряная оспа (ветрянка), вирусный гепатит, краснуха)",
+            "заболевания крови (апластическая анемия, острый лейкоз)",
+            "наследственная нейтропения",
+            "высокий уровень гормонов щитовидной железы тиреотоксикоз",
+            "последствия химиотерапии",
+            "последствия радиотерапии",
+            "применение антибактериальных, противовоспалительных, противовирусных препаратов."
+        ],
+        "Measures":[
+            {
+                "Age":1,
+                "Male":null,
+                "Female":null,
+                "Base":"47|70",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"30|50",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"16|45",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":104,
+                "Male":null,
+                "Female":null,
+                "Base":"28|48",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":260,
+                "Male":null,
+                "Female":null,
+                "Base":"32|55",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":364,
+                "Male":null,
+                "Female":null,
+                "Base":"38|58",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":468,
+                "Male":null,
+                "Female":null,
+                "Base":"41|60",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":572,
+                "Male":null,
+                "Female":null,
+                "Base":"43|60",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":780,
+                "Male":null,
+                "Female":null,
+                "Base":"45|60",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":832,
+                "Male":null,
+                "Female":null,
+                "Base":"50|70",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThisAndGreater"
+            }
+        ]
+    },
+    "NEUT":{
+        "Name":"Палочкоядерные нейтрофилы",
+        "Units":"%",
+        "Placeholder":"00",
+        "ReasonsHigh":[
+            "инфекционные заболевания (ангина, синусит, кишечная инфекция, бронхит, пневмония)",
+            "инфекционные процессы – абсцесс, флегмона, гангрена, травматические повреждения мягких тканей, остеомиелит",
+            "воспалительные заболевания внутренних органов: панкреатит,  перитонит, тиреоидит, артрит)",
+            "инфаркт (инфаркт сердца, почки, селезенки)",
+            "хронические нарушения обмена веществ: сахарный диабет, уремия, эклампсия",
+            "раковые опухоли",
+            "применение иммуностимулирующих препаратов, прививки",
+            "снижение уровня нейтрофилов – это состояние называют нейтропенией"
+        ],
+        "ReasonsLow":[
+            "инфекционные заболевания: брюшной тиф, бруцеллез, грипп, корь, ветряная оспа (ветрянка), вирусный гепатит, краснуха)",
+            "заболевания крови (апластическая анемия, острый лейкоз)",
+            "наследственная нейтропения",
+            "высокий уровень гормонов щитовидной железы тиреотоксикоз",
+            "последствия химиотерапии",
+            "последствия радиотерапии",
+            "применение антибактериальных, противовоспалительных, противовирусных препаратов."
+        ],
+        "Measures":[
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":104,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":260,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":364,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":468,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":572,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":780,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":832,
+                "Male":null,
+                "Female":null,
+                "Base":"1|3",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThisAndGreater"
+            }
+        ]
+    },
+    "EO":{
+        "Name":"Эозинофилы",
+        "Units":"%",
+        "Placeholder":"0.0",
+        "ReasonsHigh":[
+            "аллергия (бронхиальная астма, пищевая аллергия, аллергия на пыльцу и прочие воздушные аллергены, атопический дерматит, аллергический ринит, лекарственная аллергия)",
+            "паразитарные заболевания – кишечные паразиты (лямблиоз, аскаридоз, энтеробиоз, описторхоз, эхинококкоз)",
+            "инфекционные заболевания (скарлатина, туберкулез, мононуклеоз, венерические заболевания)",
+            "раковые опухоли",
+            "заболевания кроветворной системы (лейкозы, лимфома, лимфогранулематоз)",
+            "ревматические заболевания (ревматоидный артрит, узелковый периартериит,склеродермия)."
+        ],
+        "ReasonsLow":[
+            "интоксикация тяжелыми металлами",
+            "гнойные процессы, сепсис",
+            "начало воспалительного процесса."
+        ],
+        "Measures":[
+            {
+                "Age":1,
+                "Male":null,
+                "Female":null,
+                "Base":"1|6",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"1|6",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":104,
+                "Male":null,
+                "Female":null,
+                "Base":"1|7",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":260,
+                "Male":null,
+                "Female":null,
+                "Base":"1|6",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":364,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":468,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":572,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":780,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":832,
+                "Male":null,
+                "Female":null,
+                "Base":"1|5",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThisAndGreater"
+            }
+        ]
+    },
+    "MON":{
+        "Name":"Моноциты",
+        "Units":"%",
+        "Placeholder":"0.00",
+        "ReasonsHigh":[
+            "инфекции вызванные  вирусами, грибками (кандидоз), паразитами и простейшими",
+            "восстановительный период после острого воспалительного процесса",
+            "специфические заболевания: туберкулез, сифилис, бруцеллез, саркоидоз, неспецифический язвенный колит",
+            "ревматические заболевания - системная красная волчанка, ревматоидный артрит, узелковый периартериит",
+            "болезни кроветворной системы острый лейкоз, миеломная болезнь, лимфогранулематоз",
+            "отравление фосфором, тетрахлорэтаном."
+        ],
+        "ReasonsLow":[
+            "апластическая анемия",
+            "волосатоклеточный лейкоз",
+            "гнойные поражения (абсцессы, флегмоны, остеомиелит)",
+            "роды",
+            "после хирургической операции",
+            "прием стероидных препаратов (дексаметазон, преднизолон)."
+        ],
+        "Measures":[
+            {
+                "Age":1,
+                "Male":null,
+                "Female":null,
+                "Base":"3|12",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"5|15",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"4|10",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":104,
+                "Male":null,
+                "Female":null,
+                "Base":"3|10",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":260,
+                "Male":null,
+                "Female":null,
+                "Base":"3|9",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":364,
+                "Male":null,
+                "Female":null,
+                "Base":"3|9",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":468,
+                "Male":null,
+                "Female":null,
+                "Base":"3|9",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":572,
+                "Male":null,
+                "Female":null,
+                "Base":"3|9",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":780,
+                "Male":null,
+                "Female":null,
+                "Base":"3|9",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":832,
+                "Male":null,
+                "Female":null,
+                "Base":"3|9",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThisAndGreater"
+            }
+        ]
+    },
+    "BA":{
+        "Name":"Базофилы",
+        "Units":"%",
+        "Placeholder":"00",
+        "ReasonsHigh":[
+            "хронический миелолейкоз",
+            "снижение уровня гормонов щитовидной железы гипотиреоз",
+            "ветряная оспа",
+            "аллергия пищевая и лекарственная",
+            "нефроз",
+            "гемолитическая анемия",
+            "состояние после удаления селезенки",
+            "болезнь Ходжкина",
+            "лечение гормональными препаратами (эстрогенами, препаратами, снижающими активность щитовидной железы)",
+            "язвенный колит."
+        ],
+        "Measures":[
+            {
+                "Age":null,
+                "Male":null,
+                "Female":null,
+                "Base":"0|0.5",
+                "GenderEqual":true,
+                "CheckAge":"SameToAll"
+            }
+        ]
+    },
+    "LYM":{
+        "Name":"Лимфоциты",
+        "Units":"%",
+        "Placeholder":"00",
+        "ReasonsHigh":[
+            "вирусные инфекции: инфекционный мононуклеоз, вирусный гепатит, цитомегаловирусная инфекция, герпетическая инфекция, краснуха",
+            "токсоплазмоз",
+            "ОРВИ",
+            "заболевания системы крови: острый лимфолейкоз, хронический лимфолейкоз, лимфосаркома, болезнь тяжелых цепей - болезнь франклина",
+            "отравление тетрахлорэтаном, свинцом, мышьяком, дисульфидом углерода",
+            "применение препаратов:  Леводопа, Фенитоин, вальпроевая кислота, наркотические обезболивающие",
+            "лейкоз."
+        ],
+        "ReasonsLow":[
+            "туберкулез",
+            "лимфогранулематоз",
+            "системная красная волчанка",
+            "апластическая анемия",
+            "почечная недостаточность",
+            "терминальная стадия онкологических заболеваний",
+            "СПИД",
+            "радиотерапия",
+            "химиотерапия",
+            "применение глюкокортикоидов."
+        ],
+        "Measures":[
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"15|35",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":2,
+                "Male":null,
+                "Female":null,
+                "Base":"22|55",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"45|70",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":104,
+                "Male":null,
+                "Female":null,
+                "Base":"37|60",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":260,
+                "Male":null,
+                "Female":null,
+                "Base":"33|55",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":364,
+                "Male":null,
+                "Female":null,
+                "Base":"30|50",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":468,
+                "Male":null,
+                "Female":null,
+                "Base":"30|50",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":572,
+                "Male":null,
+                "Female":null,
+                "Base":"30|46",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":780,
+                "Male":null,
+                "Female":null,
+                "Base":"30|45",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":832,
+                "Male":null,
+                "Female":null,
+                "Base":"20|40",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThisAndGreater"
+            }
+        ]
+    },
+    "PLT":{
+        "Name":"Тромбоциты",
+        "Units":"10^9 клеток/л",
+        "Placeholder":"000",
+        "ReasonsHigh":[
+            "удаление селезенки",
+            "воспалительные процессы (обострение ревматизма, остеомиелит, туберкулез, абсцесс)",
+            "разные виды анемий (после кровопотери, железодефицитная, гемолитическая)",
+            "после хирургической операции",
+            "рак различной локализации",
+            "физическое переутомление",
+            "эритремия."
+        ],
+        "ReasonsLow":[
+            "врожденные заболевания крови (гемофилии)",
+            "идиопатическая аутоиммунная тромбоцитопеническая пурпура",
+            "лекарственная тромбоцитопения",
+            "системная красная волчанка",
+            "инфекции (вирусные и бактериальные инфекции, риккетсиоз, малярия, токсоплазмоз)",
+            "апластическая анемия",
+            "пароксизмальная ночная гемоглобинурия",
+            "синдром Evans (аутоиммунная гемолитическая анемия и тромбоцитопения)",
+            "ДВС-синдром (диссеминированного внутрисосудистого свертывания)",
+            "переливание крови",
+            "у детей, рожденных недоношенными",
+            "при гемолитической болезни новорожденных",
+            "сердечная недостаточность",
+            "тромбоз почечных вен."
+        ],
+        "Measures":[
+            {
+                "Age":1,
+                "Male":null,
+                "Female":null,
+                "Base":"180|320",
+                "GenderEqual":true,
+                "CheckAge":"SameToAll"
+            }
+        ]
+    },
+    "ESR":{
+        "Name":"Скорость оседания эритроцитов",
+        "Units":"мм/час",
+        "Placeholder":"0.0",
+        "ReasonsHigh":[
+            "инфекции",
+            "злокачественные опухоли",
+            "ревматологические (системные) заболевания",
+            "болезни почек"
+        ],
+        "ReasonsLow":null,
+        "Measures":[
+            {
+                "Age":52,
+                "Male":null,
+                "Female":null,
+                "Base":"2|10",
+                "GenderEqual":true,
+                "CheckAge":"ThisAndLower"
+            },
+            {
+                "Age":832,
+                "Male":null,
+                "Female":null,
+                "Base":"2|12",
+                "GenderEqual":true,
+                "CheckAge":"FromLastToThis"
+            },
+            {
+                "Age":833,
+                "Male":"1|10",
+                "Female":"2|15",
+                "Base":null,
+                "GenderEqual":false,
+                "CheckAge":"ThisAndGreater"
+            }
+        ]
+    }
+}
