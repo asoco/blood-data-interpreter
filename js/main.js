@@ -12,7 +12,7 @@ class Blood{
         this.score_title = document.getElementById("result-score-title");
         this.form_data = {};
         // fetching json data to this.data variable
-        fetch('/data/measures.json')
+        fetch('data/measures.json')
             .then(res => res.json())
             .then(data => this.data = data)
             .then(() => this.init()); 
